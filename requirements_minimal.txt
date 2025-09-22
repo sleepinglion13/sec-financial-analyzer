@@ -1,0 +1,22 @@
+# SEC Financial Analyzer - Minimal Requirements
+# These packages work reliably and are available in most Python environments
+
+# Core data processing (usually pre-installed with Python/Anaconda)
+pandas>=1.3.0
+numpy>=1.20.0
+requests>=2.25.0
+
+# Market data (install with: pip install yfinance)
+yfinance>=0.1.70
+
+# Optional visualization (usually pre-installed with Anaconda)
+matplotlib>=3.3.0
+seaborn>=0.11.0
+
+# Date/time utilities (usually pre-installed)
+python-dateutil>=2.8.0
+
+# Note: This version does NOT require:
+# - sec-api (uses direct SEC API calls instead)
+# - edgartools (uses SEC's native JSON API)
+# - scikit-learn (simplified modeling approach)
