@@ -1,0 +1,23 @@
+# SEC Financial Analyzer Requirements
+# Core SEC and financial data libraries
+sec-api>=1.0.0
+edgartools>=1.0.0
+yfinance>=0.2.0
+
+# Data processing and analysis
+pandas>=1.5.0
+numpy>=1.20.0
+scikit-learn>=1.0.0
+
+# Visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Web requests and utilities
+requests>=2.25.0
+python-dateutil>=2.8.0
+
+# Optional: For enhanced functionality
+beautifulsoup4>=4.9.0
+lxml>=4.6.0
+openpyxl>=3.0.0  # For Excel export
